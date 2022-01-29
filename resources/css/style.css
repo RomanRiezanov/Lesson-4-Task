@@ -8,6 +8,7 @@ div:first-child {
 
 div, a {
     margin: 10px;
+    padding: 10px;
 }
 
 a[href*=htmlweb]{
@@ -18,11 +19,11 @@ a[href*=htmlweb]:first-child{
     background: radial-gradient(at bottom, purple, crimson, orangered, gold);
 }
 
-div>a[href$=css]:nth-child(2):hover{
-    border-top: 2px solid #ff0000;
-    border-left: 2px solid #ff0000;
-    border-right: 2px solid #ff8800;
-    border-bottom: 2px solid #ff8800;
+.link:hover{
+    border-top: 4px solid #ff0000;
+    border-left: 4px solid #ff0000;
+    border-right: 4px solid #ff8800;
+    border-bottom: 4px solid #ff8800;
 
     border-radius: 10px 20px 10px 20px;
 }
