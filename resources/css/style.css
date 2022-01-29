@@ -1,0 +1,38 @@
+body{
+    font-size: 25px;
+}
+
+div:first-child {
+    background: repeating-linear-gradient(45deg, #7fffd4 10%, #f0ffff 30%);
+}
+
+div, a {
+    margin: 10px;
+}
+
+a[href*=htmlweb]{
+    background-color: #ee82ee
+}
+
+a[href*=htmlweb]:first-child{
+    background: radial-gradient(at bottom, purple, crimson, orangered, gold);
+}
+
+div>a[href$=css]:nth-child(2):hover{
+    border-top: 2px solid #ff0000;
+    border-left: 2px solid #ff0000;
+    border-right: 2px solid #ff8800;
+    border-bottom: 2px solid #ff8800;
+
+    border-radius: 10px 20px 10px 20px;
+}
+
+div~a:visited{
+    color:yellow;
+}
+
+a:last-child::selection{
+    color:red;
+    font-weight: bold;
+    background-color: green;
+}
